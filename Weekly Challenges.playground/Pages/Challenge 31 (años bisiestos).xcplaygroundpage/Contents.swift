@@ -52,26 +52,21 @@ import Foundation
 
 // MARK: - PLANTEAMIENTO
 
-
 let year = 2400
 
 if year % 100 == 0 && year & 400 == 0 {
     print("This is a leap year")
-    
-        } else if (year % 4 == 0) {
-            print("This is a leap year")
-            
-    } else {
-        print("This is not a leap year")
+} else if (year % 4 == 0) {
+    print("This is a leap year")
+} else {
+    print("This is not a leap year")
 }
 
 func thirtyLeapYears(year: Int) {
-
     var currentYear = year + 1
     var numberOfLeapYearsFound = 0
 
     while numberOfLeapYearsFound < 30 {
-
         if currentYear % 4 == 0 && (currentYear % 100 != 0 || currentYear % 400 == 0) {
             print(currentYear)
             numberOfLeapYearsFound += 1
