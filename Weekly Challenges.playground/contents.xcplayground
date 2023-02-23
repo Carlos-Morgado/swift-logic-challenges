@@ -16,7 +16,7 @@
         <page name='Challenge 26 (Cuadrado 2D)'/>
         <page name='Challenge 27 (Vectores ortogonales)'/>
         <page name='Challenge 29 (ordena la lista)'/>
-        <page name='Untitled Page'/>
+        <page name='Challenge 34 (Los números perdidos)'/>
         <page name='Challenge 30 (Marco de palabras)'/>
         <page name='Challenge 3 (Números primos)'/>
         <page name='Challenge 4 (Área polígonos)'/>
@@ -24,6 +24,6 @@
         <page name='Challenge 12 (Es un palíndromo)'/>
         <page name='Challenge 14 (número de armstrong'/>
         <page name='Challenge 16 (En mayúscula)'/>
-        <page name='Challenge 30 (años bisiestos)'/>
+        <page name='Challenge 31 (años bisiestos)'/>
     </pages>
 </playground>
