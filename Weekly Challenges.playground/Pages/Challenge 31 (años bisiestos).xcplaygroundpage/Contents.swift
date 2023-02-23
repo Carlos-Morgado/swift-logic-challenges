@@ -55,19 +55,15 @@ import Foundation
 
 let year = 2400
 
-if year % 100 == 0 && year & 400 == 0{
-print("This is a leap year")
-
-    } else if (year % 4 == 0) {
+if year % 100 == 0 && year & 400 == 0 {
     print("This is a leap year")
-
-
-} else {
-print("This is not a leap year")
-
+    
+        } else if (year % 4 == 0) {
+            print("This is a leap year")
+            
+    } else {
+        print("This is not a leap year")
 }
-
-
 
 func thirtyLeapYears(year: Int) {
 
